@@ -1,0 +1,128 @@
+Requirement already satisfied: numpy in c:\users\zekro\anaconda3\lib\site-packages (1.21.6)
+Requirement already satisfied: pandas in c:\users\zekro\anaconda3\lib\site-packages (1.3.5)
+Requirement already satisfied: plotly in c:\users\zekro\anaconda3\lib\site-packages (5.13.1)
+Collecting streamlit
+  Downloading streamlit-1.23.1-py2.py3-none-any.whl (8.9 MB)
+     ---------------------------------------- 8.9/8.9 MB 8.6 MB/s eta 0:00:00
+Collecting trafilatura
+  Downloading trafilatura-1.12.2-py3-none-any.whl (132 kB)
+     ---------------------------------------- 132.2/132.2 kB ? eta 0:00:00
+Requirement already satisfied: python-dateutil>=2.7.3 in c:\users\zekro\anaconda3\lib\site-packages (from pandas) (2.8.1)
+Requirement already satisfied: pytz>=2017.3 in c:\users\zekro\anaconda3\lib\site-packages (from pandas) (2019.3)
+Requirement already satisfied: tenacity>=6.2.0 in c:\users\zekro\anaconda3\lib\site-packages (from plotly) (8.2.3)
+Collecting altair<6,>=4.0 (from streamlit)
+  Downloading altair-5.0.1-py3-none-any.whl (471 kB)
+     ------------------------------------- 471.5/471.5 kB 28.8 MB/s eta 0:00:00
+Collecting blinker<2,>=1.0.0 (from streamlit)
+  Downloading blinker-1.6.3-py3-none-any.whl (13 kB)
+Requirement already satisfied: cachetools<6,>=4.0 in c:\users\zekro\anaconda3\lib\site-packages (from streamlit) (4.2.4)
+Requirement already satisfied: click<9,>=7.0 in c:\users\zekro\anaconda3\lib\site-packages (from streamlit) (8.0.4)
+Requirement already satisfied: importlib-metadata<7,>=1.4 in c:\users\zekro\anaconda3\lib\site-packages (from streamlit) (4.8.1)
+Requirement already satisfied: packaging<24,>=14.1 in c:\users\zekro\anaconda3\lib\site-packages (from streamlit) (21.0)
+Requirement already satisfied: pillow<10,>=6.2.0 in c:\users\zekro\anaconda3\lib\site-packages (from streamlit) (9.0.1)
+Collecting protobuf<5,>=3.20 (from streamlit)
+  Using cached protobuf-4.24.4-cp37-cp37m-win_amd64.whl (430 kB)
+Collecting pyarrow>=4.0 (from streamlit)
+  Downloading pyarrow-12.0.1-cp37-cp37m-win_amd64.whl (21.5 MB)
+     ---------------------------------------- 21.5/21.5 MB 5.8 MB/s eta 0:00:00
+Collecting pympler<2,>=0.9 (from streamlit)
+  Downloading Pympler-1.1-py3-none-any.whl (165 kB)
+     ---------------------------------------- 165.8/165.8 kB ? eta 0:00:00
+Requirement already satisfied: requests<3,>=2.4 in c:\users\zekro\anaconda3\lib\site-packages (from streamlit) (2.26.0)
+Requirement already satisfied: rich<14,>=10.11.0 in c:\users\zekro\anaconda3\lib\site-packages (from streamlit) (12.5.1)
+Requirement already satisfied: toml<2 in c:\users\zekro\anaconda3\lib\site-packages (from streamlit) (0.10.2)
+Requirement already satisfied: typing-extensions<5,>=4.0.1 in c:\users\zekro\anaconda3\lib\site-packages (from streamlit) (4.7.1)
+Collecting tzlocal<5,>=1.1 (from streamlit)
+  Downloading tzlocal-4.3.1-py3-none-any.whl (20 kB)
+Collecting validators<1,>=0.2 (from streamlit)
+  Using cached validators-0.20.0-py3-none-any.whl
+Requirement already satisfied: gitpython!=3.1.19,<4,>=3 in c:\users\zekro\anaconda3\lib\site-packages (from streamlit) (3.1.31)
+Collecting pydeck<1,>=0.1.dev5 (from streamlit)
+  Downloading pydeck-0.8.1b1-py2.py3-none-any.whl (7.0 MB)
+     ---------------------------------------- 7.0/7.0 MB 10.9 MB/s eta 0:00:00
+Requirement already satisfied: tornado<7,>=6.0.3 in c:\users\zekro\anaconda3\lib\site-packages (from streamlit) (6.1)
+Requirement already satisfied: watchdog in c:\users\zekro\anaconda3\lib\site-packages (from streamlit) (2.1.3)
+Requirement already satisfied: certifi in c:\users\zekro\anaconda3\lib\site-packages (from trafilatura) (2021.10.8)
+Collecting courlan>=1.2.0 (from trafilatura)
+  Downloading courlan-1.2.0-py3-none-any.whl (33 kB)
+Collecting htmldate>=1.8.1 (from trafilatura)
+  Downloading htmldate-1.8.1-py3-none-any.whl (31 kB)
+Collecting justext>=3.0.1 (from trafilatura)
+  Downloading justext-3.0.2-py2.py3-none-any.whl (837 kB)
+     -------------------------------------- 837.9/837.9 kB 8.8 MB/s eta 0:00:00
+Collecting lxml>=5.2.2 (from trafilatura)
+  Downloading lxml-5.3.1-cp37-cp37m-win_amd64.whl (3.8 MB)
+     ---------------------------------------- 3.8/3.8 MB 9.7 MB/s eta 0:00:00
+Collecting charset-normalizer>=3.2.0 (from trafilatura)
+  Downloading charset_normalizer-3.4.1-cp37-cp37m-win_amd64.whl (100 kB)
+     ---------------------------------------- 100.2/100.2 kB ? eta 0:00:00
+Requirement already satisfied: urllib3<3,>=1.26 in c:\users\zekro\anaconda3\lib\site-packages (from trafilatura) (1.26.12)
+Requirement already satisfied: jinja2 in c:\users\zekro\anaconda3\lib\site-packages (from altair<6,>=4.0->streamlit) (3.1.5)
+Requirement already satisfied: jsonschema>=3.0 in c:\users\zekro\anaconda3\lib\site-packages (from altair<6,>=4.0->streamlit) (3.2.0)
+Requirement already satisfied: toolz in c:\users\zekro\anaconda3\lib\site-packages (from altair<6,>=4.0->streamlit) (0.11.1)
+Requirement already satisfied: colorama in c:\users\zekro\anaconda3\lib\site-packages (from click<9,>=7.0->streamlit) (0.4.4)
+Collecting babel>=2.11.0 (from courlan>=1.2.0->trafilatura)
+  Downloading Babel-2.14.0-py3-none-any.whl (11.0 MB)
+     --------------------------------------- 11.0/11.0 MB 10.6 MB/s eta 0:00:00
+Collecting tld>=0.13 (from courlan>=1.2.0->trafilatura)
+  Downloading tld-0.13-py2.py3-none-any.whl (263 kB)
+     ------------------------------------- 263.8/263.8 kB 16.9 MB/s eta 0:00:00
+Requirement already satisfied: gitdb<5,>=4.0.1 in c:\users\zekro\anaconda3\lib\site-packages (from gitpython!=3.1.19,<4,>=3->streamlit) (4.0.10)
+Collecting dateparser>=1.1.2 (from htmldate>=1.8.1->trafilatura)
+  Downloading dateparser-1.2.0-py2.py3-none-any.whl (294 kB)
+     ------------------------------------- 295.0/295.0 kB 17.8 MB/s eta 0:00:00
+Collecting python-dateutil>=2.7.3 (from pandas)
+  Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+Requirement already satisfied: zipp>=0.5 in c:\users\zekro\anaconda3\lib\site-packages (from importlib-metadata<7,>=1.4->streamlit) (3.6.0)
+Requirement already satisfied: lxml[html_clean]>=4.4.2 in c:\users\zekro\anaconda3\lib\site-packages (from justext>=3.0.1->trafilatura) (4.6.3)
+Requirement already satisfied: pyparsing>=2.0.2 in c:\users\zekro\anaconda3\lib\site-packages (from packaging<24,>=14.1->streamlit) (3.0.4)
+Requirement already satisfied: pywin32>=226 in c:\users\zekro\anaconda3\lib\site-packages (from pympler<2,>=0.9->streamlit) (227)
+Requirement already satisfied: six>=1.5 in c:\users\zekro\anaconda3\lib\site-packages (from python-dateutil>=2.7.3->pandas) (1.15.0)
+INFO: pip is looking at multiple versions of requests to determine which version is compatible with other requirements. This could take a while.
+Collecting requests<3,>=2.4 (from streamlit)
+  Using cached requests-2.31.0-py3-none-any.whl (62 kB)
+Requirement already satisfied: idna<4,>=2.5 in c:\users\zekro\anaconda3\lib\site-packages (from requests<3,>=2.4->streamlit) (3.2)
+Requirement already satisfied: commonmark<0.10.0,>=0.9.0 in c:\users\zekro\anaconda3\lib\site-packages (from rich<14,>=10.11.0->streamlit) (0.9.1)
+Requirement already satisfied: pygments<3.0.0,>=2.6.0 in c:\users\zekro\anaconda3\lib\site-packages (from rich<14,>=10.11.0->streamlit) (2.10.0)
+Collecting pytz-deprecation-shim (from tzlocal<5,>=1.1->streamlit)
+  Downloading pytz_deprecation_shim-0.1.0.post0-py2.py3-none-any.whl (15 kB)
+Collecting tzdata (from tzlocal<5,>=1.1->streamlit)
+  Using cached tzdata-2025.1-py2.py3-none-any.whl (346 kB)
+Collecting backports.zoneinfo (from tzlocal<5,>=1.1->streamlit)
+  Downloading backports.zoneinfo-0.2.1-cp37-cp37m-win_amd64.whl (38 kB)
+Requirement already satisfied: decorator>=3.4.0 in c:\users\zekro\anaconda3\lib\site-packages (from validators<1,>=0.2->streamlit) (5.1.0)
+Requirement already satisfied: regex!=2019.02.19,!=2021.8.27 in c:\users\zekro\anaconda3\lib\site-packages (from dateparser>=1.1.2->htmldate>=1.8.1->trafilatura) (2021.8.3)
+Requirement already satisfied: smmap<6,>=3.0.1 in c:\users\zekro\anaconda3\lib\site-packages (from gitdb<5,>=4.0.1->gitpython!=3.1.19,<4,>=3->streamlit) (5.0.0)
+Requirement already satisfied: MarkupSafe>=2.0 in c:\users\zekro\anaconda3\lib\site-packages (from jinja2->altair<6,>=4.0->streamlit) (2.1.5)
+Requirement already satisfied: attrs>=17.4.0 in c:\users\zekro\anaconda3\lib\site-packages (from jsonschema>=3.0->altair<6,>=4.0->streamlit) (21.2.0)
+Requirement already satisfied: pyrsistent>=0.14.0 in c:\users\zekro\anaconda3\lib\site-packages (from jsonschema>=3.0->altair<6,>=4.0->streamlit) (0.18.0)
+Requirement already satisfied: setuptools in c:\users\zekro\anaconda3\lib\site-packages (from jsonschema>=3.0->altair<6,>=4.0->streamlit) (67.6.1)
+INFO: pip is looking at multiple versions of lxml[html-clean] to determine which version is compatible with other requirements. This could take a while.
+Collecting lxml-html-clean (from lxml>=5.2.2->trafilatura)
+  Downloading lxml_html_clean-0.4.1-py3-none-any.whl (14 kB)
+Installing collected packages: validators, tzdata, tld, python-dateutil, pympler, pyarrow, protobuf, lxml, charset-normalizer, blinker, backports.zoneinfo, babel, requests, pytz-deprecation-shim, pydeck, lxml-html-clean, courlan, tzlocal, altair, streamlit, justext, dateparser, htmldate, trafilatura
+  Attempting uninstall: python-dateutil
+    Found existing installation: python-dateutil 2.8.1
+    Uninstalling python-dateutil-2.8.1:
+      Successfully uninstalled python-dateutil-2.8.1
+  Attempting uninstall: protobuf
+    Found existing installation: protobuf 3.19.6
+    Uninstalling protobuf-3.19.6:
+      Successfully uninstalled protobuf-3.19.6
+  Attempting uninstall: lxml
+    Found existing installation: lxml 4.6.3
+    Uninstalling lxml-4.6.3:
+      Successfully uninstalled lxml-4.6.3
+  Attempting uninstall: charset-normalizer
+    Found existing installation: charset-normalizer 2.0.4
+    Uninstalling charset-normalizer-2.0.4:
+      Successfully uninstalled charset-normalizer-2.0.4
+  Attempting uninstall: babel
+    Found existing installation: Babel 2.9.1
+    Uninstalling Babel-2.9.1:
+      Successfully uninstalled Babel-2.9.1
+  Attempting uninstall: requests
+    Found existing installation: requests 2.26.0
+    Uninstalling requests-2.26.0:
+      Successfully uninstalled requests-2.26.0
+Successfully installed altair-5.0.1 babel-2.14.0 backports.zoneinfo-0.2.1 blinker-1.6.3 charset-normalizer-3.4.1 courlan-1.2.0 dateparser-1.2.0 htmldate-1.8.1 justext-3.0.2 lxml-5.3.1 lxml-html-clean-0.4.1 protobuf-4.24.4 pyarrow-12.0.1 pydeck-0.8.1b1 pympler-1.1 python-dateutil-2.9.0.post0 pytz-deprecation-shim-0.1.0.post0 requests-2.31.0 streamlit-1.23.1 tld-0.13 trafilatura-1.12.2 tzdata-2025.1 tzlocal-4.3.1 validators-0.20.0
